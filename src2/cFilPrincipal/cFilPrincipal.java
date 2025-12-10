@@ -10,6 +10,9 @@ public class cFilPrincipal {
     System . out . println ("Fil secundari iniciat.");
 
     cFil vObjecteFil = new cFil ("#1");
+    
+    // Práctica 1.2: aumentar la temporización del proceso hijo
+    vObjecteFil.sTemporitzacio(1000);
 
     //alternativa: innecessari
     Thread vFil = new Thread (vObjecteFil);
