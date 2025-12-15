@@ -28,6 +28,8 @@ public class cFilPrincipal {
         System . out . println ("Despertant aturada " + vComptador + " procès principal");
 
       }
+      
+      vFil.join();
 
     }
 
