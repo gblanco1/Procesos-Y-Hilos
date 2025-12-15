@@ -28,7 +28,8 @@ public class cFilPrincipal {
         System . out . println ("Despertant aturada " + vComptador + " procès principal");
 
       }
-      
+     
+   // Práctica 1.3: Fa que el fil pare acabi mes tard que el fil fill
       vFil.join();
 
     }
